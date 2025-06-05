@@ -1,0 +1,32 @@
+﻿CREATE TABLE [dbo].[TempAdvFacCreditCardDetail_BKP_20250407] (
+  [EntityKey] [int] NULL,
+  [AccountEntityId] [int] NULL,
+  [CreditCardEntityId] [int] NULL,
+  [CorporateUCIC_ID] [varchar](20) NULL,
+  [CorporateCustomerID] [varchar](20) NULL,
+  [Liability] [varchar](20) NULL,
+  [MinimumAmountDue] [int] NULL,
+  [CD] [int] NULL,
+  [Bucket] [varchar](20) NULL,
+  [DPD] [int] NULL,
+  [RefSystemAcId] [varchar](30) NULL,
+  [AuthorisationStatus] [int] NULL,
+  [EffectiveFromTimeKey] [int] NOT NULL,
+  [EffectiveToTimeKey] [int] NOT NULL,
+  [CreatedBy] [varchar](20) NULL,
+  [DateCreated] [datetime] NOT NULL,
+  [ModifiedBy] [int] NULL,
+  [DateModified] [int] NULL,
+  [ApprovedBy] [int] NULL,
+  [DateApproved] [int] NULL,
+  [D2Ktimestamp] [int] NULL,
+  [MocStatus] [int] NULL,
+  [MocDate] [int] NULL,
+  [ISChanged] [varchar](1) NULL,
+  [AccountStatus] [varchar](20) NULL,
+  [AccountBlkCode2] [varchar](25) NULL,
+  [AccountBlkCode1] [varchar](25) NULL,
+  [ChargeoffY_N] [char](1) NULL
+)
+ON [PRIMARY]
+GO
